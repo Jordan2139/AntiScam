@@ -18,7 +18,7 @@ class monkey {
                     console.log(link)
                     if (message.content.includes(link)) {
                         message.delete().catch(e => {})
-                        message.channel.send({ content: `**You're message was deleted because it contained a restricted link:** ||${link}||` })
+                        message.channel.send({ content: `**Your message was deleted because it contained a restricted link:** ||${link}||` })
                     }
                 })
             })
