@@ -1,0 +1,26 @@
+{
+  "name": "anitraid",
+  "version": "1.0.0",
+  "description": "A simple node module to help prevent discord scam links from being spammed in your chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jordan2139/AntiRaid.git"
+  },
+  "keywords": [
+    "moderation",
+    "antiraid",
+    "scam",
+    "links",
+    "automod"
+  ],
+  "author": "Jordan.#2139",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jordan2139/AntiRaid/issues"
+  },
+  "homepage": "https://github.com/Jordan2139/AntiRaid#readme"
+}
