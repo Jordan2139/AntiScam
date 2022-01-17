@@ -1,4 +1,4 @@
-# antiraid
+# antiscam
 A simple node module to help prevent discord scam links from being spammed in your chat
 
 ---
@@ -13,7 +13,7 @@ A simple node module to help prevent discord scam links from being spammed in yo
 
 ## Installation
 
-`npm i antiraid@latest`
+`npm i antiscam@latest`
 
 ---
 
@@ -33,11 +33,11 @@ Base customization for the module.
 ```js
 const Discord = require('discord.js')
 const client = new Discord.Client({ partials: ['CHANNEL', 'MESSAGE', 'GUILD_MEMBER', 'USER'] })
-const badlink = require('antiraid');
-const checklink = badlink(client, true)
+const antiscam = require('antiscamlinks');
+const badlink = antiscam(client, true)
 
 client.on('message', async message => {
-    await checklink(message)
+    await badlink.checkLink(message)
 });
 
 client.login('YOUR_BOT_TOKEN')
